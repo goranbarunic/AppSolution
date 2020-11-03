@@ -1,0 +1,5 @@
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.dacpac
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\CoreDB\obj\Debug\CoreDB.dll
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\CoreDB\obj\Debug\CoreDB.pdb
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.dll
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.pdb

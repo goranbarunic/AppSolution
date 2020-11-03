@@ -1,0 +1,9 @@
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.dacpac
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\obj\Debug\Model.xml
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\obj\Debug\refactor.xml
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\obj\Debug\postdeploy.sql
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\obj\Debug\predeploy.sql
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\obj\Debug\AdminDB.dll
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\obj\Debug\AdminDB.pdb
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.dll
+C:\Users\goran.barunic\Desktop\Edukacija Serengeti\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.pdb

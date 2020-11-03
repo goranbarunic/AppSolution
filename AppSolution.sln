@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSolution", "AppSolution.csproj", "{80D47B24-3A85-4E57-9589-7706F3328965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBProjects", "DBProjects", "{5AC4C9EF-EBA2-4707-B3F5-1BD7030C57C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task Scheduler", "Task Scheduler", "{32106747-6F02-410A-826D-581824BCD294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jobs", "Jobs", "{EEAA4271-52C2-4991-A1DC-93B0A8DA820F}"
+	ProjectSection(SolutionItems) = preProject
+		DBProjects\Task Scheduler\Jobs\TaskSchedulerJob.bat = DBProjects\Task Scheduler\Jobs\TaskSchedulerJob.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{AA50FD23-9AE1-4004-859B-01751311462A}"
+	ProjectSection(SolutionItems) = preProject
+		DBProjects\Task Scheduler\Scripts\TaskSchedulerJobScript.sql = DBProjects\Task Scheduler\Scripts\TaskSchedulerJobScript.sql
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CoreDB", "DBProjects\CoreDB\CoreDB.sqlproj", "{2761E242-2366-47F2-9FB4-A765916146DC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdminDB", "DBProjects\AdminDB\AdminDB.sqlproj", "{A4B8BDDE-41EE-44CC-AF85-66A6C9CF8F50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80D47B24-3A85-4E57-9589-7706F3328965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D47B24-3A85-4E57-9589-7706F3328965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D47B24-3A85-4E57-9589-7706F3328965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D47B24-3A85-4E57-9589-7706F3328965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2761E242-2366-47F2-9FB4-A765916146DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2761E242-2366-47F2-9FB4-A765916146DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2761E242-2366-47F2-9FB4-A765916146DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2761E242-2366-47F2-9FB4-A765916146DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A4B8BDDE-41EE-44CC-AF85-66A6C9CF8F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B8BDDE-41EE-44CC-AF85-66A6C9CF8F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B8BDDE-41EE-44CC-AF85-66A6C9CF8F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B8BDDE-41EE-44CC-AF85-66A6C9CF8F50}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32106747-6F02-410A-826D-581824BCD294} = {5AC4C9EF-EBA2-4707-B3F5-1BD7030C57C2}
+		{EEAA4271-52C2-4991-A1DC-93B0A8DA820F} = {32106747-6F02-410A-826D-581824BCD294}
+		{AA50FD23-9AE1-4004-859B-01751311462A} = {32106747-6F02-410A-826D-581824BCD294}
+		{2761E242-2366-47F2-9FB4-A765916146DC} = {5AC4C9EF-EBA2-4707-B3F5-1BD7030C57C2}
+		{A4B8BDDE-41EE-44CC-AF85-66A6C9CF8F50} = {5AC4C9EF-EBA2-4707-B3F5-1BD7030C57C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2EDF9FA7-FFBA-460A-A7B9-840A128D4BFB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/goranbarunic
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AppSolution.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = DBProjects\\AdminDB\\AdminDB.sqlproj
+		SccProjectTopLevelParentUniqueName2 = AppSolution.sln
+		SccProjectName2 = DBProjects/AdminDB
+		SccLocalPath2 = DBProjects\\AdminDB
+		SccProjectUniqueName3 = DBProjects\\CoreDB\\CoreDB.sqlproj
+		SccProjectTopLevelParentUniqueName3 = AppSolution.sln
+		SccProjectName3 = DBProjects/CoreDB
+		SccLocalPath3 = DBProjects\\CoreDB
+	EndGlobalSection
+EndGlobal

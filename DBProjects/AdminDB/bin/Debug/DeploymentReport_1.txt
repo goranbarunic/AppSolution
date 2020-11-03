@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[trg_Applications] (Trigger)
+       [dbo].[trg_Authorizations] (Trigger)
+       [dbo].[trg_Roles] (Trigger)
+       [dbo].[trg_Users] (Trigger)
+     Alter
+       [dbo].[fn_CanUserAccessApp] (Function)
+       [dbo].[fn_GetDayType] (Function)
+       [dbo].[fn_GetRoleAuthorizations] (Function)
+       [dbo].[fn_GetUserApplications] (Function)
+       [dbo].[crud_DeleteAuthorizations] (Procedure)
+       [dbo].[crud_DeleteRoleAuthorizations] (Procedure)
+       [dbo].[crud_DeleteRoles] (Procedure)
+       [dbo].[crud_DeleteUserApplications] (Procedure)
+       [dbo].[crud_DeleteUsers] (Procedure)
+       [dbo].[crud_InsertApplications] (Procedure)
+       [dbo].[crud_InsertAuthorizations] (Procedure)
+       [dbo].[crud_InsertRoles] (Procedure)
+       [dbo].[crud_InsertUserApplications] (Procedure)
+       [dbo].[crud_InsertUsers] (Procedure)
+       [dbo].[crud_SelectApplications] (Procedure)
+       [dbo].[crud_SelectAuthorizations] (Procedure)
+       [dbo].[crud_SelectRoles] (Procedure)
+       [dbo].[crud_SelectUsers] (Procedure)
+       [dbo].[crud_UpdateApplications] (Procedure)
+       [dbo].[crud_UpdateAuthorizations] (Procedure)
+       [dbo].[crud_UpdateRoles] (Procedure)
+       [dbo].[crud_UpdateUsers] (Procedure)
+
+** Supporting actions

@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[trg_Countries] (Trigger)
+       [dbo].[trg_Districts] (Trigger)
+       [dbo].[trg_Employees] (Trigger)
+       [dbo].[trg_Genders] (Trigger)
+       [dbo].[trg_Places] (Trigger)
+       [dbo].[trg_Regions] (Trigger)
+
+** Supporting actions
